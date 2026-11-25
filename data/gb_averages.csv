@@ -1,4 +1,6 @@
 period_start,period_end,fuel,tariff,payment_type,standing_charge_p_per_day,unit_rate_p_per_kwh
+2026-10-01,2026-12-31,electricity,Economy 7 (multi-rate),Direct Debit,54.62,24.9
+2027-01-01,2027-03-31,electricity,Economy 7 (multi-rate),Direct Debit,54.51,31.34
 2026-10-01,2026-12-31,electricity,Single rate,Direct Debit,54.83,26.32
 2027-01-01,2027-03-31,electricity,Single rate,Direct Debit,54.77,32.69
 2026-10-01,2026-12-31,electricity,Economy 7 (multi-rate),Prepayment,54.62,24.14

@@ -9,24 +9,16 @@ Regional electricity (single rate and Economy 7) and gas rates under the Ofgem p
 |---|---|
 | `data/electricity_rates.csv` | Single rate + Economy 7 |
 | `data/gas_rates.csv` | Gas |
-| `data/price_cap_rates_all.csv` / `.json` | Everything (238 rows) |
+| `data/price_cap_rates_all.csv` / `.json` | Everything (252 rows) |
 | `data/raw/` | Ofgem's downloaded CSVs |
 | `scripts/build.py` | Regenerates everything from `data/raw/` |
 
 Columns: `period_start, period_end, region, fuel, tariff, payment_type, standing_charge_p_per_day, unit_rate_p_per_kwh`
 
 ## Coverage
-| Table | Oct–Dec 2026 | Jan–Mar 2027 |
-|---|---|---|
-| Electricity single rate (all 3 payment types) | yes | yes |
-| Economy 7 – on receipt of bill, prepayment | yes | yes |
-| Economy 7 – Direct Debit | yes (transcribed*) | **not yet added** |
-| Gas (all 3 payment types) | yes | yes |
-
-Ofgem's own CSV downloads are in `data/raw/` and are the source for everything except *.
-\* Economy 7 Direct Debit Oct–Dec was transcribed from a third-party mirror; the other 8 tables' Oct–Dec
-values were cross-checked against Ofgem's CSVs and matched exactly.
-`data/gb_averages.csv` holds the Great Britain average rows from the same CSVs.
+Complete: all 9 Ofgem tables (electricity single rate, Economy 7, gas × Direct Debit, on receipt of bill, prepayment)
+for 14 regions, Oct–Dec 2026 and Jan–Mar 2027. Everything comes from Ofgem's own CSV downloads in `data/raw/`.
+`data/gb_averages.csv` holds the Great Britain average rows.
 
 ## Notes
 - Units: pence per day (standing charge) and pence per kWh (unit rate), rounded to 2 d.p.

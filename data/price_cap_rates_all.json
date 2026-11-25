@@ -1265,6 +1265,146 @@
     "region": "North Western England",
     "fuel": "electricity",
     "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 45.02,
+    "unit_rate_p_per_kwh": 31.43
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "North Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 60.85,
+    "unit_rate_p_per_kwh": 30.43
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Yorkshire",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 60.99,
+    "unit_rate_p_per_kwh": 30.9
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Northern Scotland",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.43,
+    "unit_rate_p_per_kwh": 31.07
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Southern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 47.64,
+    "unit_rate_p_per_kwh": 31.43
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Southern Scotland",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.56,
+    "unit_rate_p_per_kwh": 31.22
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 66.88,
+    "unit_rate_p_per_kwh": 32.91
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "London",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 42.51,
+    "unit_rate_p_per_kwh": 31.63
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "South Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 52.41,
+    "unit_rate_p_per_kwh": 31.85
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 51.86,
+    "unit_rate_p_per_kwh": 31.68
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "East Midlands",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 50.93,
+    "unit_rate_p_per_kwh": 30.43
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "West Midlands",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 56.77,
+    "unit_rate_p_per_kwh": 30.79
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "South Western England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.71,
+    "unit_rate_p_per_kwh": 31.46
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Southern Wales",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 54.52,
+    "unit_rate_p_per_kwh": 31.59
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "North Western England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
     "payment_type": "On receipt of bill (standard credit)",
     "standing_charge_p_per_day": 53.57,
     "unit_rate_p_per_kwh": 33.17

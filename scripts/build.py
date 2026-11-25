@@ -111,7 +111,7 @@ for path in sorted(glob.glob("data/raw/*.csv")):
                     assert (old["standing_charge_p_per_day"], old["unit_rate_p_per_kwh"]) == (sc, ur), (name, rec[0], per)
                 else:
                     rows.append(new); idx[key(new)] = new
-assert len(rows) == 14*3*3*2 - 14, len(rows)   # all but Economy 7 / Direct Debit / Jan-Mar 2027
+assert len(rows) == 14*3*3*2, len(rows)   # complete: 14 regions x 9 tables x 2 periods
 rows.sort(key=lambda r: (r["period_start"], r["fuel"], r["tariff"], r["payment_type"], REGIONS.index(r["region"])))
 def write(name, rs):
     with open(f"data/{name}.csv","w",newline="") as f:

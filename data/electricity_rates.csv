@@ -83,6 +83,20 @@ period_start,period_end,region,fuel,tariff,payment_type,standing_charge_p_per_da
 2026-10-01,2026-12-31,West Midlands,electricity,Single rate,Prepayment,57.23,24.82
 2026-10-01,2026-12-31,South Western England,electricity,Single rate,Prepayment,55.58,25.77
 2026-10-01,2026-12-31,Southern Wales,electricity,Single rate,Prepayment,55.41,25.74
+2027-01-01,2027-03-31,North Western England,electricity,Economy 7 (multi-rate),Direct Debit,45.02,31.43
+2027-01-01,2027-03-31,North Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,60.85,30.43
+2027-01-01,2027-03-31,Yorkshire,electricity,Economy 7 (multi-rate),Direct Debit,60.99,30.9
+2027-01-01,2027-03-31,Northern Scotland,electricity,Economy 7 (multi-rate),Direct Debit,55.43,31.07
+2027-01-01,2027-03-31,Southern England,electricity,Economy 7 (multi-rate),Direct Debit,47.64,31.43
+2027-01-01,2027-03-31,Southern Scotland,electricity,Economy 7 (multi-rate),Direct Debit,61.56,31.22
+2027-01-01,2027-03-31,Merseyside and Northern Wales,electricity,Economy 7 (multi-rate),Direct Debit,66.88,32.91
+2027-01-01,2027-03-31,London,electricity,Economy 7 (multi-rate),Direct Debit,42.51,31.63
+2027-01-01,2027-03-31,South Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,52.41,31.85
+2027-01-01,2027-03-31,Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,51.86,31.68
+2027-01-01,2027-03-31,East Midlands,electricity,Economy 7 (multi-rate),Direct Debit,50.93,30.43
+2027-01-01,2027-03-31,West Midlands,electricity,Economy 7 (multi-rate),Direct Debit,56.77,30.79
+2027-01-01,2027-03-31,South Western England,electricity,Economy 7 (multi-rate),Direct Debit,55.71,31.46
+2027-01-01,2027-03-31,Southern Wales,electricity,Economy 7 (multi-rate),Direct Debit,54.52,31.59
 2027-01-01,2027-03-31,North Western England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),53.57,33.17
 2027-01-01,2027-03-31,North Eastern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),70.4,32.12
 2027-01-01,2027-03-31,Yorkshire,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),70.46,32.62
