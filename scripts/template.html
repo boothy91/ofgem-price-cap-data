@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ofgem price cap rates by region</title>
+<meta name="description" content="Search Ofgem energy price cap unit rates and standing charges by region, payment type and tariff.">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#14181f;--muted:#5b6472;--line:#dde1e7;--accent:#0b6b4f;--up:#b3261e;--down:#0b6b4f}
+@media (prefers-color-scheme:dark){:root{--bg:#10141a;--card:#181e27;--text:#eef1f5;--muted:#9aa5b4;--line:#2a3340;--accent:#4fd1a1;--up:#ff8a80;--down:#4fd1a1}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:16px}
+h1{font-size:1.4rem;margin:8px 0 4px}p.sub{color:var(--muted);margin:0 0 16px;font-size:.92rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:14px}
+label{display:block;font-size:.8rem;color:var(--muted);margin:10px 0 4px}label:first-child{margin-top:0}
+select{width:100%;padding:12px;font-size:1rem;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--text)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.period{font-size:.8rem;color:var(--muted);margin-bottom:6px}
+.big{font-size:1.7rem;font-weight:650}.unit{font-size:.85rem;color:var(--muted);font-weight:400}
+.row{margin:8px 0}.chg{font-size:.85rem;font-weight:600}.up{color:var(--up)}.down{color:var(--down)}
+table{width:100%;border-collapse:collapse;font-size:.88rem}th,td{padding:8px 6px;text-align:right;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}th{color:var(--muted);font-weight:500;cursor:pointer;white-space:nowrap}
+tr.sel td{background:color-mix(in srgb,var(--accent) 14%,transparent);font-weight:600}tr.gb td{color:var(--muted);font-style:italic}
+.scroll{overflow-x:auto}h2{font-size:1.05rem;margin:0 0 8px}
+footer{color:var(--muted);font-size:.8rem;padding:8px 0 24px}a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<h1>Energy price cap rates by region</h1>
+<p class="sub">Ofgem unit rates and daily standing charges, Oct–Dec 2026 and Jan–Mar 2027. Pence, gas includes 5% VAT, electricity 0% VAT.</p>
+<div class="card">
+<label for="region">Region</label><select id="region"></select>
+<label for="pay">Payment type</label><select id="pay"></select>
+<label for="tariff">Tariff type</label><select id="tariff"></select>
+</div>
+<div id="result"></div>
+<div class="card"><h2>All regions</h2><div class="scroll"><table id="all"></table></div></div>
+<footer>
+Source: <a href="https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges">Ofgem</a>, published 25 Nov 2026.
+Contains public sector information licensed under the Open Government Licence v3.0.
+Not financial advice. <a href="data/price_cap_rates_all.csv">Download CSV</a> · <a href="data/price_cap_rates_all.json">JSON</a>
+</footer>
+</main>
+<script>
+const DATA = __DATA__;
+const GB = __GB__;
+const PERIOD_LABEL = {"2026-10-01":"Oct–Dec 2026","2027-01-01":"Jan–Mar 2027"};
+const periods = Object.keys(PERIOD_LABEL).sort();
+const tariffId = r => r.fuel === "gas" ? "gas" : (r.tariff.startsWith("Economy") ? "e7" : "single");
+const TARIFFS = [["single","Electricity: single rate"],["e7","Electricity: Economy 7"],["gas","Gas"]];
+const regions = [...new Set(DATA.map(r => r.region))];
+const pays = [...new Set(DATA.map(r => r.payment_type))];
+const $ = id => document.getElementById(id);
+const fill = (el, items) => el.innerHTML = items.map(([v,l]) => `<option value="${v}">${l}</option>`).join("");
+fill($("region"), regions.map(r => [r,r]));
+fill($("pay"), pays.map(p => [p,p]));
+fill($("tariff"), TARIFFS);
+// restore selection from the URL hash, e.g. #London|Direct Debit|e7 (kept plain so links can be shared)
+try{const h=decodeURIComponent(location.hash.slice(1)).split("|");
+ if(h.length===3){if(regions.includes(h[0]))$("region").value=h[0];if(pays.includes(h[1]))$("pay").value=h[1];if(TARIFFS.some(t=>t[0]===h[2]))$("tariff").value=h[2];}}catch(e){}
+const find = (set, region, pay, tar, per) => set.find(r => r.region===region && r.payment_type===pay && tariffId(r)===tar && r.period_start===per);
+const f2 = n => n.toFixed(2);
+function chg(a,b,unit){const d=b-a,pct=a?d/a*100:0,cls=d>0.004?"up":d<-0.004?"down":"";
+ const s=(d>0?"+":"")+f2(d)+unit+" ("+(d>0?"+":"")+pct.toFixed(1)+"%)";return `<span class="chg ${cls}">${s}</span>`}
+let sortKey="unit_rate_p_per_kwh", sortDir=1;
+function render(){
+ const region=$("region").value,pay=$("pay").value,tar=$("tariff").value;
+ try{history.replaceState(null,"","#"+encodeURIComponent([region,pay,tar].join("|")))}catch(e){}
+ const rs=periods.map(p=>find(DATA,region,pay,tar,p));
+ let h='<div class="grid">';
+ rs.forEach((r,i)=>{h+=`<div class="card"><div class="period">${PERIOD_LABEL[periods[i]]}</div>`+
+  (r?`<div class="row"><div class="big">${f2(r.unit_rate_p_per_kwh)}<span class="unit"> p/kWh</span></div>${i?chg(rs[0].unit_rate_p_per_kwh,r.unit_rate_p_per_kwh," p"):""}</div>
+  <div class="row"><div class="big">${f2(r.standing_charge_p_per_day)}<span class="unit"> p/day</span></div>${i?chg(rs[0].standing_charge_p_per_day,r.standing_charge_p_per_day," p"):""}</div>`:"No data")+"</div>"});
+ $("result").innerHTML=h+"</div>";
+ // all-regions table for the chosen payment type + tariff, latest period
+ const per=periods[periods.length-1];
+ const list=regions.map(rg=>find(DATA,rg,pay,tar,per)).filter(Boolean);
+ const g=GB.find(x=>x.payment_type===pay&&tariffId(x)===tar&&x.period_start===per);
+ list.sort((a,b)=>(a[sortKey]-b[sortKey])*sortDir);
+ const arrow=k=>k===sortKey?(sortDir>0?" ▲":" ▼"):"";
+ let t=`<tr><th data-k="region">Region</th><th data-k="unit_rate_p_per_kwh">p/kWh${arrow("unit_rate_p_per_kwh")}</th><th data-k="standing_charge_p_per_day">p/day${arrow("standing_charge_p_per_day")}</th></tr>`;
+ list.forEach(r=>{t+=`<tr class="${r.region===region?"sel":""}"><td>${r.region}</td><td>${f2(r.unit_rate_p_per_kwh)}</td><td>${f2(r.standing_charge_p_per_day)}</td></tr>`});
+ if(g)t+=`<tr class="gb"><td>Great Britain average</td><td>${f2(g.unit_rate_p_per_kwh)}</td><td>${f2(g.standing_charge_p_per_day)}</td></tr>`;
+ $("all").innerHTML=t;
+ $("all").querySelectorAll("th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(k==="region")return;sortDir=(k===sortKey)?-sortDir:1;sortKey=k;render()});
+}
+["region","pay","tariff"].forEach(id=>$(id).addEventListener("change",render));
+render();
+</script>
+</body>
+</html>

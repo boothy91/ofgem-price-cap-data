@@ -124,3 +124,14 @@ with open("data/gb_averages.csv","w",newline="") as f:
     w=_c.DictWriter(f,fieldnames=list(gb[0])); w.writeheader(); w.writerows(gb)
 json.dump(rows, open("data/price_cap_rates_all.json","w"), indent=2)
 print(len(rows), "rows")
+
+# --- Static site for GitHub Pages (docs/) ---
+import shutil
+os.makedirs("docs/data", exist_ok=True)
+for fn in ("price_cap_rates_all.csv", "price_cap_rates_all.json", "electricity_rates.csv", "gas_rates.csv", "gb_averages.csv"):
+    shutil.copy(f"data/{fn}", f"docs/data/{fn}")
+page = open("scripts/template.html", encoding="utf-8").read()
+page = page.replace("__DATA__", json.dumps(rows, separators=(",", ":"))).replace("__GB__", json.dumps(gb, separators=(",", ":")))
+open("docs/index.html", "w", encoding="utf-8").write(page)
+open("docs/.nojekyll", "w").close()
+print("site written to docs/index.html")

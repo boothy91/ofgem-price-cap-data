@@ -1,0 +1,19 @@
+period_start,period_end,fuel,tariff,payment_type,standing_charge_p_per_day,unit_rate_p_per_kwh
+2026-10-01,2026-12-31,electricity,Economy 7 (multi-rate),Direct Debit,54.62,24.9
+2027-01-01,2027-03-31,electricity,Economy 7 (multi-rate),Direct Debit,54.51,31.34
+2026-10-01,2026-12-31,electricity,Single rate,Direct Debit,54.83,26.32
+2027-01-01,2027-03-31,electricity,Single rate,Direct Debit,54.77,32.69
+2026-10-01,2026-12-31,electricity,Economy 7 (multi-rate),Prepayment,54.62,24.14
+2027-01-01,2027-03-31,electricity,Economy 7 (multi-rate),Prepayment,54.51,30.39
+2026-10-01,2026-12-31,electricity,Single rate,Prepayment,54.83,25.52
+2027-01-01,2027-03-31,electricity,Single rate,Prepayment,54.77,31.7
+2026-10-01,2026-12-31,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),63.41,26.29
+2027-01-01,2027-03-31,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),63.3,33.08
+2026-10-01,2026-12-31,electricity,Single rate,On receipt of bill (standard credit),63.49,27.8
+2027-01-01,2027-03-31,electricity,Single rate,On receipt of bill (standard credit),63.37,34.52
+2026-10-01,2026-12-31,gas,Gas,Direct Debit,29.68,7.97
+2027-01-01,2027-03-31,gas,Gas,Direct Debit,29.65,10.96
+2026-10-01,2026-12-31,gas,Gas,Prepayment,29.68,7.7
+2027-01-01,2027-03-31,gas,Gas,Prepayment,29.65,10.6
+2026-10-01,2026-12-31,gas,Gas,On receipt of bill (standard credit),37.49,8.39
+2027-01-01,2027-03-31,gas,Gas,On receipt of bill (standard credit),37.38,11.55

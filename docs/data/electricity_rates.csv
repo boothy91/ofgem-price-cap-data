@@ -1,0 +1,169 @@
+period_start,period_end,region,fuel,tariff,payment_type,standing_charge_p_per_day,unit_rate_p_per_kwh
+2026-10-01,2026-12-31,North Western England,electricity,Economy 7 (multi-rate),Direct Debit,45.13,24.99
+2026-10-01,2026-12-31,North Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,60.98,24.12
+2026-10-01,2026-12-31,Yorkshire,electricity,Economy 7 (multi-rate),Direct Debit,61.13,24.33
+2026-10-01,2026-12-31,Northern Scotland,electricity,Economy 7 (multi-rate),Direct Debit,55.55,24.93
+2026-10-01,2026-12-31,Southern England,electricity,Economy 7 (multi-rate),Direct Debit,47.75,25.03
+2026-10-01,2026-12-31,Southern Scotland,electricity,Economy 7 (multi-rate),Direct Debit,61.72,24.7
+2026-10-01,2026-12-31,Merseyside and Northern Wales,electricity,Economy 7 (multi-rate),Direct Debit,67.02,26.28
+2026-10-01,2026-12-31,London,electricity,Economy 7 (multi-rate),Direct Debit,42.57,25.08
+2026-10-01,2026-12-31,South Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,52.48,25.36
+2026-10-01,2026-12-31,Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,51.95,25.17
+2026-10-01,2026-12-31,East Midlands,electricity,Economy 7 (multi-rate),Direct Debit,51.02,24.05
+2026-10-01,2026-12-31,West Midlands,electricity,Economy 7 (multi-rate),Direct Debit,56.89,24.32
+2026-10-01,2026-12-31,South Western England,electricity,Economy 7 (multi-rate),Direct Debit,55.8,25.1
+2026-10-01,2026-12-31,Southern Wales,electricity,Economy 7 (multi-rate),Direct Debit,54.64,25.14
+2026-10-01,2026-12-31,North Western England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),53.67,26.39
+2026-10-01,2026-12-31,North Eastern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),70.52,25.47
+2026-10-01,2026-12-31,Yorkshire,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),70.58,25.69
+2026-10-01,2026-12-31,Northern Scotland,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),63.59,26.33
+2026-10-01,2026-12-31,Southern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),56.35,26.43
+2026-10-01,2026-12-31,Southern Scotland,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),70.11,26.08
+2026-10-01,2026-12-31,Merseyside and Northern Wales,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),76.64,27.74
+2026-10-01,2026-12-31,London,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),50.45,26.48
+2026-10-01,2026-12-31,South Eastern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),61.12,26.78
+2026-10-01,2026-12-31,Eastern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),60.55,26.57
+2026-10-01,2026-12-31,East Midlands,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),59.97,25.39
+2026-10-01,2026-12-31,West Midlands,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),65.91,25.68
+2026-10-01,2026-12-31,South Western England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),64.48,26.5
+2026-10-01,2026-12-31,Southern Wales,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),63.85,26.54
+2026-10-01,2026-12-31,North Western England,electricity,Economy 7 (multi-rate),Prepayment,45.13,24.23
+2026-10-01,2026-12-31,North Eastern England,electricity,Economy 7 (multi-rate),Prepayment,60.98,23.38
+2026-10-01,2026-12-31,Yorkshire,electricity,Economy 7 (multi-rate),Prepayment,61.13,23.59
+2026-10-01,2026-12-31,Northern Scotland,electricity,Economy 7 (multi-rate),Prepayment,55.55,24.17
+2026-10-01,2026-12-31,Southern England,electricity,Economy 7 (multi-rate),Prepayment,47.75,24.27
+2026-10-01,2026-12-31,Southern Scotland,electricity,Economy 7 (multi-rate),Prepayment,61.72,23.95
+2026-10-01,2026-12-31,Merseyside and Northern Wales,electricity,Economy 7 (multi-rate),Prepayment,67.02,25.48
+2026-10-01,2026-12-31,London,electricity,Economy 7 (multi-rate),Prepayment,42.57,24.32
+2026-10-01,2026-12-31,South Eastern England,electricity,Economy 7 (multi-rate),Prepayment,52.48,24.59
+2026-10-01,2026-12-31,Eastern England,electricity,Economy 7 (multi-rate),Prepayment,51.95,24.4
+2026-10-01,2026-12-31,East Midlands,electricity,Economy 7 (multi-rate),Prepayment,51.02,23.32
+2026-10-01,2026-12-31,West Midlands,electricity,Economy 7 (multi-rate),Prepayment,56.89,23.58
+2026-10-01,2026-12-31,South Western England,electricity,Economy 7 (multi-rate),Prepayment,55.8,24.33
+2026-10-01,2026-12-31,Southern Wales,electricity,Economy 7 (multi-rate),Prepayment,54.64,24.37
+2026-10-01,2026-12-31,North Western England,electricity,Single rate,Direct Debit,45.68,26.49
+2026-10-01,2026-12-31,North Eastern England,electricity,Single rate,Direct Debit,61.58,25.46
+2026-10-01,2026-12-31,Yorkshire,electricity,Single rate,Direct Debit,61.67,25.6
+2026-10-01,2026-12-31,Northern Scotland,electricity,Single rate,Direct Debit,55.14,26.35
+2026-10-01,2026-12-31,Southern England,electricity,Single rate,Direct Debit,47.81,26.47
+2026-10-01,2026-12-31,Southern Scotland,electricity,Single rate,Direct Debit,61.41,26.11
+2026-10-01,2026-12-31,Merseyside and Northern Wales,electricity,Single rate,Direct Debit,67.66,27.86
+2026-10-01,2026-12-31,London,electricity,Single rate,Direct Debit,42.92,26.6
+2026-10-01,2026-12-31,South Eastern England,electricity,Single rate,Direct Debit,52.32,26.88
+2026-10-01,2026-12-31,Eastern England,electricity,Single rate,Direct Debit,51.84,26.61
+2026-10-01,2026-12-31,East Midlands,electricity,Single rate,Direct Debit,51.45,25.36
+2026-10-01,2026-12-31,West Midlands,electricity,Single rate,Direct Debit,57.23,25.6
+2026-10-01,2026-12-31,South Western England,electricity,Single rate,Direct Debit,55.58,26.58
+2026-10-01,2026-12-31,Southern Wales,electricity,Single rate,Direct Debit,55.41,26.55
+2026-10-01,2026-12-31,North Western England,electricity,Single rate,On receipt of bill (standard credit),53.73,27.98
+2026-10-01,2026-12-31,North Eastern England,electricity,Single rate,On receipt of bill (standard credit),70.61,26.89
+2026-10-01,2026-12-31,Yorkshire,electricity,Single rate,On receipt of bill (standard credit),70.67,27.05
+2026-10-01,2026-12-31,Northern Scotland,electricity,Single rate,On receipt of bill (standard credit),63.67,27.83
+2026-10-01,2026-12-31,Southern England,electricity,Single rate,On receipt of bill (standard credit),56.41,27.95
+2026-10-01,2026-12-31,Southern Scotland,electricity,Single rate,On receipt of bill (standard credit),70.19,27.58
+2026-10-01,2026-12-31,Merseyside and Northern Wales,electricity,Single rate,On receipt of bill (standard credit),76.72,29.43
+2026-10-01,2026-12-31,London,electricity,Single rate,On receipt of bill (standard credit),50.51,28.09
+2026-10-01,2026-12-31,South Eastern England,electricity,Single rate,On receipt of bill (standard credit),61.19,28.39
+2026-10-01,2026-12-31,Eastern England,electricity,Single rate,On receipt of bill (standard credit),60.62,28.11
+2026-10-01,2026-12-31,East Midlands,electricity,Single rate,On receipt of bill (standard credit),60.05,26.78
+2026-10-01,2026-12-31,West Midlands,electricity,Single rate,On receipt of bill (standard credit),65.99,27.04
+2026-10-01,2026-12-31,South Western England,electricity,Single rate,On receipt of bill (standard credit),64.55,28.08
+2026-10-01,2026-12-31,Southern Wales,electricity,Single rate,On receipt of bill (standard credit),63.93,28.05
+2026-10-01,2026-12-31,North Western England,electricity,Single rate,Prepayment,45.68,25.68
+2026-10-01,2026-12-31,North Eastern England,electricity,Single rate,Prepayment,61.58,24.68
+2026-10-01,2026-12-31,Yorkshire,electricity,Single rate,Prepayment,61.67,24.82
+2026-10-01,2026-12-31,Northern Scotland,electricity,Single rate,Prepayment,55.14,25.54
+2026-10-01,2026-12-31,Southern England,electricity,Single rate,Prepayment,47.81,25.66
+2026-10-01,2026-12-31,Southern Scotland,electricity,Single rate,Prepayment,61.41,25.31
+2026-10-01,2026-12-31,Merseyside and Northern Wales,electricity,Single rate,Prepayment,67.66,27.01
+2026-10-01,2026-12-31,London,electricity,Single rate,Prepayment,42.92,25.78
+2026-10-01,2026-12-31,South Eastern England,electricity,Single rate,Prepayment,52.32,26.06
+2026-10-01,2026-12-31,Eastern England,electricity,Single rate,Prepayment,51.84,25.8
+2026-10-01,2026-12-31,East Midlands,electricity,Single rate,Prepayment,51.45,24.58
+2026-10-01,2026-12-31,West Midlands,electricity,Single rate,Prepayment,57.23,24.82
+2026-10-01,2026-12-31,South Western England,electricity,Single rate,Prepayment,55.58,25.77
+2026-10-01,2026-12-31,Southern Wales,electricity,Single rate,Prepayment,55.41,25.74
+2027-01-01,2027-03-31,North Western England,electricity,Economy 7 (multi-rate),Direct Debit,45.02,31.43
+2027-01-01,2027-03-31,North Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,60.85,30.43
+2027-01-01,2027-03-31,Yorkshire,electricity,Economy 7 (multi-rate),Direct Debit,60.99,30.9
+2027-01-01,2027-03-31,Northern Scotland,electricity,Economy 7 (multi-rate),Direct Debit,55.43,31.07
+2027-01-01,2027-03-31,Southern England,electricity,Economy 7 (multi-rate),Direct Debit,47.64,31.43
+2027-01-01,2027-03-31,Southern Scotland,electricity,Economy 7 (multi-rate),Direct Debit,61.56,31.22
+2027-01-01,2027-03-31,Merseyside and Northern Wales,electricity,Economy 7 (multi-rate),Direct Debit,66.88,32.91
+2027-01-01,2027-03-31,London,electricity,Economy 7 (multi-rate),Direct Debit,42.51,31.63
+2027-01-01,2027-03-31,South Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,52.41,31.85
+2027-01-01,2027-03-31,Eastern England,electricity,Economy 7 (multi-rate),Direct Debit,51.86,31.68
+2027-01-01,2027-03-31,East Midlands,electricity,Economy 7 (multi-rate),Direct Debit,50.93,30.43
+2027-01-01,2027-03-31,West Midlands,electricity,Economy 7 (multi-rate),Direct Debit,56.77,30.79
+2027-01-01,2027-03-31,South Western England,electricity,Economy 7 (multi-rate),Direct Debit,55.71,31.46
+2027-01-01,2027-03-31,Southern Wales,electricity,Economy 7 (multi-rate),Direct Debit,54.52,31.59
+2027-01-01,2027-03-31,North Western England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),53.57,33.17
+2027-01-01,2027-03-31,North Eastern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),70.4,32.12
+2027-01-01,2027-03-31,Yorkshire,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),70.46,32.62
+2027-01-01,2027-03-31,Northern Scotland,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),63.48,32.8
+2027-01-01,2027-03-31,Southern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),56.25,33.18
+2027-01-01,2027-03-31,Southern Scotland,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),69.99,32.95
+2027-01-01,2027-03-31,Merseyside and Northern Wales,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),76.52,34.74
+2027-01-01,2027-03-31,London,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),50.36,33.39
+2027-01-01,2027-03-31,South Eastern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),61.01,33.61
+2027-01-01,2027-03-31,Eastern England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),60.44,33.44
+2027-01-01,2027-03-31,East Midlands,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),59.86,32.12
+2027-01-01,2027-03-31,West Midlands,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),65.79,32.5
+2027-01-01,2027-03-31,South Western England,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),64.37,33.21
+2027-01-01,2027-03-31,Southern Wales,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),63.74,33.34
+2027-01-01,2027-03-31,North Western England,electricity,Economy 7 (multi-rate),Prepayment,45.02,30.47
+2027-01-01,2027-03-31,North Eastern England,electricity,Economy 7 (multi-rate),Prepayment,60.85,29.5
+2027-01-01,2027-03-31,Yorkshire,electricity,Economy 7 (multi-rate),Prepayment,60.99,29.97
+2027-01-01,2027-03-31,Northern Scotland,electricity,Economy 7 (multi-rate),Prepayment,55.43,30.13
+2027-01-01,2027-03-31,Southern England,electricity,Economy 7 (multi-rate),Prepayment,47.64,30.48
+2027-01-01,2027-03-31,Southern Scotland,electricity,Economy 7 (multi-rate),Prepayment,61.56,30.27
+2027-01-01,2027-03-31,Merseyside and Northern Wales,electricity,Economy 7 (multi-rate),Prepayment,66.88,31.91
+2027-01-01,2027-03-31,London,electricity,Economy 7 (multi-rate),Prepayment,42.51,30.67
+2027-01-01,2027-03-31,South Eastern England,electricity,Economy 7 (multi-rate),Prepayment,52.41,30.88
+2027-01-01,2027-03-31,Eastern England,electricity,Economy 7 (multi-rate),Prepayment,51.86,30.72
+2027-01-01,2027-03-31,East Midlands,electricity,Economy 7 (multi-rate),Prepayment,50.93,29.51
+2027-01-01,2027-03-31,West Midlands,electricity,Economy 7 (multi-rate),Prepayment,56.77,29.86
+2027-01-01,2027-03-31,South Western England,electricity,Economy 7 (multi-rate),Prepayment,55.71,30.51
+2027-01-01,2027-03-31,Southern Wales,electricity,Economy 7 (multi-rate),Prepayment,54.52,30.63
+2027-01-01,2027-03-31,North Western England,electricity,Single rate,Direct Debit,45.62,32.85
+2027-01-01,2027-03-31,North Eastern England,electricity,Single rate,Direct Debit,61.51,31.69
+2027-01-01,2027-03-31,Yorkshire,electricity,Single rate,Direct Debit,61.59,32.11
+2027-01-01,2027-03-31,Northern Scotland,electricity,Single rate,Direct Debit,55.07,32.4
+2027-01-01,2027-03-31,Southern England,electricity,Single rate,Direct Debit,47.74,32.78
+2027-01-01,2027-03-31,Southern Scotland,electricity,Single rate,Direct Debit,61.33,32.57
+2027-01-01,2027-03-31,Merseyside and Northern Wales,electricity,Single rate,Direct Debit,67.59,34.44
+2027-01-01,2027-03-31,London,electricity,Single rate,Direct Debit,42.88,33.08
+2027-01-01,2027-03-31,South Eastern England,electricity,Single rate,Direct Debit,52.25,33.29
+2027-01-01,2027-03-31,Eastern England,electricity,Single rate,Direct Debit,51.76,33.05
+2027-01-01,2027-03-31,East Midlands,electricity,Single rate,Direct Debit,51.38,31.65
+2027-01-01,2027-03-31,West Midlands,electricity,Single rate,Direct Debit,57.16,32.0
+2027-01-01,2027-03-31,South Western England,electricity,Single rate,Direct Debit,55.51,32.86
+2027-01-01,2027-03-31,Southern Wales,electricity,Single rate,Direct Debit,55.35,32.92
+2027-01-01,2027-03-31,North Western England,electricity,Single rate,On receipt of bill (standard credit),53.62,34.68
+2027-01-01,2027-03-31,North Eastern England,electricity,Single rate,On receipt of bill (standard credit),70.48,33.46
+2027-01-01,2027-03-31,Yorkshire,electricity,Single rate,On receipt of bill (standard credit),70.54,33.9
+2027-01-01,2027-03-31,Northern Scotland,electricity,Single rate,On receipt of bill (standard credit),63.55,34.21
+2027-01-01,2027-03-31,Southern England,electricity,Single rate,On receipt of bill (standard credit),56.3,34.61
+2027-01-01,2027-03-31,Southern Scotland,electricity,Single rate,On receipt of bill (standard credit),70.06,34.39
+2027-01-01,2027-03-31,Merseyside and Northern Wales,electricity,Single rate,On receipt of bill (standard credit),76.6,36.36
+2027-01-01,2027-03-31,London,electricity,Single rate,On receipt of bill (standard credit),50.4,34.92
+2027-01-01,2027-03-31,South Eastern England,electricity,Single rate,On receipt of bill (standard credit),61.07,35.15
+2027-01-01,2027-03-31,Eastern England,electricity,Single rate,On receipt of bill (standard credit),60.5,34.9
+2027-01-01,2027-03-31,East Midlands,electricity,Single rate,On receipt of bill (standard credit),59.92,33.42
+2027-01-01,2027-03-31,West Midlands,electricity,Single rate,On receipt of bill (standard credit),65.87,33.78
+2027-01-01,2027-03-31,South Western England,electricity,Single rate,On receipt of bill (standard credit),64.43,34.69
+2027-01-01,2027-03-31,Southern Wales,electricity,Single rate,On receipt of bill (standard credit),63.81,34.76
+2027-01-01,2027-03-31,North Western England,electricity,Single rate,Prepayment,45.62,31.85
+2027-01-01,2027-03-31,North Eastern England,electricity,Single rate,Prepayment,61.51,30.72
+2027-01-01,2027-03-31,Yorkshire,electricity,Single rate,Prepayment,61.59,31.13
+2027-01-01,2027-03-31,Northern Scotland,electricity,Single rate,Prepayment,55.07,31.41
+2027-01-01,2027-03-31,Southern England,electricity,Single rate,Prepayment,47.74,31.78
+2027-01-01,2027-03-31,Southern Scotland,electricity,Single rate,Prepayment,61.33,31.58
+2027-01-01,2027-03-31,Merseyside and Northern Wales,electricity,Single rate,Prepayment,67.59,33.39
+2027-01-01,2027-03-31,London,electricity,Single rate,Prepayment,42.88,32.07
+2027-01-01,2027-03-31,South Eastern England,electricity,Single rate,Prepayment,52.25,32.28
+2027-01-01,2027-03-31,Eastern England,electricity,Single rate,Prepayment,51.76,32.05
+2027-01-01,2027-03-31,East Midlands,electricity,Single rate,Prepayment,51.38,30.69
+2027-01-01,2027-03-31,West Midlands,electricity,Single rate,Prepayment,57.16,31.02
+2027-01-01,2027-03-31,South Western England,electricity,Single rate,Prepayment,55.51,31.86
+2027-01-01,2027-03-31,Southern Wales,electricity,Single rate,Prepayment,55.35,31.92
