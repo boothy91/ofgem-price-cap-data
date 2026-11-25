@@ -82,12 +82,45 @@ for region, line in zip(REGIONS, JAN_SINGLE_DD.splitlines()):
     assert (o["standing_charge_p_per_day"], o["unit_rate_p_per_kwh"]) == (sc0, ur0), region
     rows.append(dict(period_start=JAN_PERIOD[0], period_end=JAN_PERIOD[1], region=region, fuel="electricity",
         tariff="Single rate", payment_type="Direct Debit", standing_charge_p_per_day=sc1, unit_rate_p_per_kwh=ur1))
-assert len(rows) == 14*3*3 + 14
+# --- Merge Ofgem's downloaded CSVs from data/raw/ (authoritative; cross-checked against transcription) ---
+import glob, os, re
+PAYMAP = [("direct_debit","Direct Debit"),("standard_credit","On receipt of bill (standard credit)"),("prepayment","Prepayment")]
+key = lambda r: (r["period_start"], r["region"], r["fuel"], r["tariff"], r["payment_type"])
+idx = {key(r): r for r in rows}
+gb = []
+num = lambda t: float(re.match(r"\s*([\d.]+)", t).group(1))
+for path in sorted(glob.glob("data/raw/*.csv")):
+    name = os.path.basename(path).lower()
+    fuel = "electricity" if "electricity" in name else "gas"
+    tariff = "Gas" if fuel == "gas" else ("Economy 7 (multi-rate)" if "multi-rate" in name else "Single rate")
+    pay = next(p for k, p in PAYMAP if k in name.replace("direct_debit","direct_debit"))
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        for rec in csv.reader(f):
+            if rec[0] == "Region": continue
+            sc0, sc1, ur0, ur1 = (num(x) for x in rec[1:5])
+            if rec[0] == "Great Britain average":
+                for per, sc, ur in ((PERIOD, sc0, ur0), (JAN_PERIOD, sc1, ur1)):
+                    gb.append(dict(period_start=per[0], period_end=per[1], fuel=fuel, tariff=tariff, payment_type=pay,
+                                   standing_charge_p_per_day=sc, unit_rate_p_per_kwh=ur))
+                continue
+            for per, sc, ur in ((PERIOD, sc0, ur0), (JAN_PERIOD, sc1, ur1)):
+                new = dict(period_start=per[0], period_end=per[1], region=rec[0], fuel=fuel, tariff=tariff,
+                           payment_type=pay, standing_charge_p_per_day=sc, unit_rate_p_per_kwh=ur)
+                old = idx.get(key(new))
+                if old:  # cross-check earlier transcription against Ofgem's own file
+                    assert (old["standing_charge_p_per_day"], old["unit_rate_p_per_kwh"]) == (sc, ur), (name, rec[0], per)
+                else:
+                    rows.append(new); idx[key(new)] = new
+assert len(rows) == 14*3*3*2 - 14, len(rows)   # all but Economy 7 / Direct Debit / Jan-Mar 2027
+rows.sort(key=lambda r: (r["period_start"], r["fuel"], r["tariff"], r["payment_type"], REGIONS.index(r["region"])))
 def write(name, rs):
     with open(f"data/{name}.csv","w",newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rs[0])); w.writeheader(); w.writerows(rs)
 write("price_cap_rates_all", rows)
 write("electricity_rates", [r for r in rows if r["fuel"]=="electricity"])
 write("gas_rates", [r for r in rows if r["fuel"]=="gas"])
+import csv as _c
+with open("data/gb_averages.csv","w",newline="") as f:
+    w=_c.DictWriter(f,fieldnames=list(gb[0])); w.writeheader(); w.writerows(gb)
 json.dump(rows, open("data/price_cap_rates_all.json","w"), indent=2)
 print(len(rows), "rows")

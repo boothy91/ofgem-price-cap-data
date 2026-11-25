@@ -1,43 +1,85 @@
 period_start,period_end,region,fuel,tariff,payment_type,standing_charge_p_per_day,unit_rate_p_per_kwh
 2026-10-01,2026-12-31,North Western England,gas,Gas,Direct Debit,29.81,7.86
-2026-10-01,2026-12-31,North Western England,gas,Gas,On receipt of bill (standard credit),37.5,8.29
-2026-10-01,2026-12-31,North Western England,gas,Gas,Prepayment,29.81,7.58
 2026-10-01,2026-12-31,North Eastern England,gas,Gas,Direct Debit,29.79,7.92
-2026-10-01,2026-12-31,North Eastern England,gas,Gas,On receipt of bill (standard credit),37.5,8.35
-2026-10-01,2026-12-31,North Eastern England,gas,Gas,Prepayment,29.79,7.66
 2026-10-01,2026-12-31,Yorkshire,gas,Gas,Direct Debit,29.77,7.9
-2026-10-01,2026-12-31,Yorkshire,gas,Gas,On receipt of bill (standard credit),37.5,8.32
-2026-10-01,2026-12-31,Yorkshire,gas,Gas,Prepayment,29.77,7.61
 2026-10-01,2026-12-31,Northern Scotland,gas,Gas,Direct Debit,29.87,7.87
-2026-10-01,2026-12-31,Northern Scotland,gas,Gas,On receipt of bill (standard credit),37.5,8.29
-2026-10-01,2026-12-31,Northern Scotland,gas,Gas,Prepayment,29.87,7.57
 2026-10-01,2026-12-31,Southern England,gas,Gas,Direct Debit,29.16,8.17
-2026-10-01,2026-12-31,Southern England,gas,Gas,On receipt of bill (standard credit),37.48,8.61
-2026-10-01,2026-12-31,Southern England,gas,Gas,Prepayment,29.16,7.94
 2026-10-01,2026-12-31,Southern Scotland,gas,Gas,Direct Debit,29.89,7.87
-2026-10-01,2026-12-31,Southern Scotland,gas,Gas,On receipt of bill (standard credit),37.5,8.29
-2026-10-01,2026-12-31,Southern Scotland,gas,Gas,Prepayment,29.89,7.57
 2026-10-01,2026-12-31,Merseyside and Northern Wales,gas,Gas,Direct Debit,30.08,7.91
-2026-10-01,2026-12-31,Merseyside and Northern Wales,gas,Gas,On receipt of bill (standard credit),37.5,8.33
-2026-10-01,2026-12-31,Merseyside and Northern Wales,gas,Gas,Prepayment,30.08,7.62
 2026-10-01,2026-12-31,London,gas,Gas,Direct Debit,30.2,8.15
-2026-10-01,2026-12-31,London,gas,Gas,On receipt of bill (standard credit),37.49,8.58
-2026-10-01,2026-12-31,London,gas,Gas,Prepayment,30.2,7.9
 2026-10-01,2026-12-31,South Eastern England,gas,Gas,Direct Debit,29.26,8.05
-2026-10-01,2026-12-31,South Eastern England,gas,Gas,On receipt of bill (standard credit),37.49,8.48
-2026-10-01,2026-12-31,South Eastern England,gas,Gas,Prepayment,29.26,7.78
 2026-10-01,2026-12-31,Eastern England,gas,Gas,Direct Debit,29.34,7.91
-2026-10-01,2026-12-31,Eastern England,gas,Gas,On receipt of bill (standard credit),37.5,8.34
-2026-10-01,2026-12-31,Eastern England,gas,Gas,Prepayment,29.34,7.68
 2026-10-01,2026-12-31,East Midlands,gas,Gas,Direct Debit,29.41,7.82
-2026-10-01,2026-12-31,East Midlands,gas,Gas,On receipt of bill (standard credit),37.5,8.24
-2026-10-01,2026-12-31,East Midlands,gas,Gas,Prepayment,29.41,7.54
 2026-10-01,2026-12-31,West Midlands,gas,Gas,Direct Debit,29.71,7.9
-2026-10-01,2026-12-31,West Midlands,gas,Gas,On receipt of bill (standard credit),37.5,8.33
-2026-10-01,2026-12-31,West Midlands,gas,Gas,Prepayment,29.71,7.64
 2026-10-01,2026-12-31,South Western England,gas,Gas,Direct Debit,29.31,8.12
-2026-10-01,2026-12-31,South Western England,gas,Gas,On receipt of bill (standard credit),37.49,8.55
-2026-10-01,2026-12-31,South Western England,gas,Gas,Prepayment,29.31,7.89
 2026-10-01,2026-12-31,Southern Wales,gas,Gas,Direct Debit,29.96,8.09
+2026-10-01,2026-12-31,North Western England,gas,Gas,On receipt of bill (standard credit),37.5,8.29
+2026-10-01,2026-12-31,North Eastern England,gas,Gas,On receipt of bill (standard credit),37.5,8.35
+2026-10-01,2026-12-31,Yorkshire,gas,Gas,On receipt of bill (standard credit),37.5,8.32
+2026-10-01,2026-12-31,Northern Scotland,gas,Gas,On receipt of bill (standard credit),37.5,8.29
+2026-10-01,2026-12-31,Southern England,gas,Gas,On receipt of bill (standard credit),37.48,8.61
+2026-10-01,2026-12-31,Southern Scotland,gas,Gas,On receipt of bill (standard credit),37.5,8.29
+2026-10-01,2026-12-31,Merseyside and Northern Wales,gas,Gas,On receipt of bill (standard credit),37.5,8.33
+2026-10-01,2026-12-31,London,gas,Gas,On receipt of bill (standard credit),37.49,8.58
+2026-10-01,2026-12-31,South Eastern England,gas,Gas,On receipt of bill (standard credit),37.49,8.48
+2026-10-01,2026-12-31,Eastern England,gas,Gas,On receipt of bill (standard credit),37.5,8.34
+2026-10-01,2026-12-31,East Midlands,gas,Gas,On receipt of bill (standard credit),37.5,8.24
+2026-10-01,2026-12-31,West Midlands,gas,Gas,On receipt of bill (standard credit),37.5,8.33
+2026-10-01,2026-12-31,South Western England,gas,Gas,On receipt of bill (standard credit),37.49,8.55
 2026-10-01,2026-12-31,Southern Wales,gas,Gas,On receipt of bill (standard credit),37.49,8.52
+2026-10-01,2026-12-31,North Western England,gas,Gas,Prepayment,29.81,7.58
+2026-10-01,2026-12-31,North Eastern England,gas,Gas,Prepayment,29.79,7.66
+2026-10-01,2026-12-31,Yorkshire,gas,Gas,Prepayment,29.77,7.61
+2026-10-01,2026-12-31,Northern Scotland,gas,Gas,Prepayment,29.87,7.57
+2026-10-01,2026-12-31,Southern England,gas,Gas,Prepayment,29.16,7.94
+2026-10-01,2026-12-31,Southern Scotland,gas,Gas,Prepayment,29.89,7.57
+2026-10-01,2026-12-31,Merseyside and Northern Wales,gas,Gas,Prepayment,30.08,7.62
+2026-10-01,2026-12-31,London,gas,Gas,Prepayment,30.2,7.9
+2026-10-01,2026-12-31,South Eastern England,gas,Gas,Prepayment,29.26,7.78
+2026-10-01,2026-12-31,Eastern England,gas,Gas,Prepayment,29.34,7.68
+2026-10-01,2026-12-31,East Midlands,gas,Gas,Prepayment,29.41,7.54
+2026-10-01,2026-12-31,West Midlands,gas,Gas,Prepayment,29.71,7.64
+2026-10-01,2026-12-31,South Western England,gas,Gas,Prepayment,29.31,7.89
 2026-10-01,2026-12-31,Southern Wales,gas,Gas,Prepayment,29.96,7.8
+2027-01-01,2027-03-31,North Western England,gas,Gas,Direct Debit,29.78,10.85
+2027-01-01,2027-03-31,North Eastern England,gas,Gas,Direct Debit,29.77,10.92
+2027-01-01,2027-03-31,Yorkshire,gas,Gas,Direct Debit,29.73,10.89
+2027-01-01,2027-03-31,Northern Scotland,gas,Gas,Direct Debit,29.84,10.86
+2027-01-01,2027-03-31,Southern England,gas,Gas,Direct Debit,29.1,11.16
+2027-01-01,2027-03-31,Southern Scotland,gas,Gas,Direct Debit,29.86,10.86
+2027-01-01,2027-03-31,Merseyside and Northern Wales,gas,Gas,Direct Debit,30.06,10.9
+2027-01-01,2027-03-31,London,gas,Gas,Direct Debit,30.19,11.14
+2027-01-01,2027-03-31,South Eastern England,gas,Gas,Direct Debit,29.21,11.04
+2027-01-01,2027-03-31,Eastern England,gas,Gas,Direct Debit,29.28,10.9
+2027-01-01,2027-03-31,East Midlands,gas,Gas,Direct Debit,29.37,10.81
+2027-01-01,2027-03-31,West Midlands,gas,Gas,Direct Debit,29.68,10.89
+2027-01-01,2027-03-31,South Western England,gas,Gas,Direct Debit,29.26,11.11
+2027-01-01,2027-03-31,Southern Wales,gas,Gas,Direct Debit,29.94,11.08
+2027-01-01,2027-03-31,North Western England,gas,Gas,On receipt of bill (standard credit),37.38,11.44
+2027-01-01,2027-03-31,North Eastern England,gas,Gas,On receipt of bill (standard credit),37.38,11.5
+2027-01-01,2027-03-31,Yorkshire,gas,Gas,On receipt of bill (standard credit),37.38,11.47
+2027-01-01,2027-03-31,Northern Scotland,gas,Gas,On receipt of bill (standard credit),37.38,11.45
+2027-01-01,2027-03-31,Southern England,gas,Gas,On receipt of bill (standard credit),37.37,11.76
+2027-01-01,2027-03-31,Southern Scotland,gas,Gas,On receipt of bill (standard credit),37.38,11.45
+2027-01-01,2027-03-31,Merseyside and Northern Wales,gas,Gas,On receipt of bill (standard credit),37.38,11.48
+2027-01-01,2027-03-31,London,gas,Gas,On receipt of bill (standard credit),37.37,11.74
+2027-01-01,2027-03-31,South Eastern England,gas,Gas,On receipt of bill (standard credit),37.37,11.63
+2027-01-01,2027-03-31,Eastern England,gas,Gas,On receipt of bill (standard credit),37.38,11.49
+2027-01-01,2027-03-31,East Midlands,gas,Gas,On receipt of bill (standard credit),37.38,11.4
+2027-01-01,2027-03-31,West Midlands,gas,Gas,On receipt of bill (standard credit),37.38,11.48
+2027-01-01,2027-03-31,South Western England,gas,Gas,On receipt of bill (standard credit),37.37,11.7
+2027-01-01,2027-03-31,Southern Wales,gas,Gas,On receipt of bill (standard credit),37.37,11.67
+2027-01-01,2027-03-31,North Western England,gas,Gas,Prepayment,29.78,10.49
+2027-01-01,2027-03-31,North Eastern England,gas,Gas,Prepayment,29.77,10.57
+2027-01-01,2027-03-31,Yorkshire,gas,Gas,Prepayment,29.73,10.52
+2027-01-01,2027-03-31,Northern Scotland,gas,Gas,Prepayment,29.84,10.48
+2027-01-01,2027-03-31,Southern England,gas,Gas,Prepayment,29.1,10.84
+2027-01-01,2027-03-31,Southern Scotland,gas,Gas,Prepayment,29.86,10.48
+2027-01-01,2027-03-31,Merseyside and Northern Wales,gas,Gas,Prepayment,30.06,10.53
+2027-01-01,2027-03-31,London,gas,Gas,Prepayment,30.19,10.8
+2027-01-01,2027-03-31,South Eastern England,gas,Gas,Prepayment,29.21,10.69
+2027-01-01,2027-03-31,Eastern England,gas,Gas,Prepayment,29.28,10.58
+2027-01-01,2027-03-31,East Midlands,gas,Gas,Prepayment,29.37,10.44
+2027-01-01,2027-03-31,West Midlands,gas,Gas,Prepayment,29.68,10.54
+2027-01-01,2027-03-31,South Western England,gas,Gas,Prepayment,29.26,10.79
+2027-01-01,2027-03-31,Southern Wales,gas,Gas,Prepayment,29.94,10.7
