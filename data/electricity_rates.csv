@@ -83,3 +83,17 @@ period_start,period_end,region,fuel,tariff,payment_type,standing_charge_p_per_da
 2026-10-01,2026-12-31,Southern Wales,electricity,Economy 7 (multi-rate),Direct Debit,54.64,25.14
 2026-10-01,2026-12-31,Southern Wales,electricity,Economy 7 (multi-rate),On receipt of bill (standard credit),63.85,26.54
 2026-10-01,2026-12-31,Southern Wales,electricity,Economy 7 (multi-rate),Prepayment,54.64,24.37
+2027-01-01,2027-03-31,North Western England,electricity,Single rate,Direct Debit,45.62,32.85
+2027-01-01,2027-03-31,North Eastern England,electricity,Single rate,Direct Debit,61.51,31.69
+2027-01-01,2027-03-31,Yorkshire,electricity,Single rate,Direct Debit,61.59,32.11
+2027-01-01,2027-03-31,Northern Scotland,electricity,Single rate,Direct Debit,55.07,32.4
+2027-01-01,2027-03-31,Southern England,electricity,Single rate,Direct Debit,47.74,32.78
+2027-01-01,2027-03-31,Southern Scotland,electricity,Single rate,Direct Debit,61.33,32.57
+2027-01-01,2027-03-31,Merseyside and Northern Wales,electricity,Single rate,Direct Debit,67.59,34.44
+2027-01-01,2027-03-31,London,electricity,Single rate,Direct Debit,42.88,33.08
+2027-01-01,2027-03-31,South Eastern England,electricity,Single rate,Direct Debit,52.25,33.29
+2027-01-01,2027-03-31,Eastern England,electricity,Single rate,Direct Debit,51.76,33.05
+2027-01-01,2027-03-31,East Midlands,electricity,Single rate,Direct Debit,51.38,31.65
+2027-01-01,2027-03-31,West Midlands,electricity,Single rate,Direct Debit,57.16,32.0
+2027-01-01,2027-03-31,South Western England,electricity,Single rate,Direct Debit,55.51,32.86
+2027-01-01,2027-03-31,Southern Wales,electricity,Single rate,Direct Debit,55.35,32.92

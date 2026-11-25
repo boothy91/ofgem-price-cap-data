@@ -1,7 +1,7 @@
 # Ofgem energy price cap: unit rates and standing charges by region
 
 Regional electricity (single rate and Economy 7) and gas rates under the Ofgem price cap,
-**1 October – 31 December 2026**, for each of the 14 GB regions and 3 payment types
+**1 October 2026 – 31 March 2027**, for each of the 14 GB regions and 3 payment types
 (Direct Debit, on receipt of bill / standard credit, prepayment).
 
 ## Files
@@ -13,6 +13,14 @@ Regional electricity (single rate and Economy 7) and gas rates under the Ofgem p
 | `scripts/build.py` | Regenerates all of the above |
 
 Columns: `period_start, period_end, region, fuel, tariff, payment_type, standing_charge_p_per_day, unit_rate_p_per_kwh`
+
+## Coverage
+| Table | Oct–Dec 2026 | Jan–Mar 2027 |
+|---|---|---|
+| Electricity single rate – Direct Debit | yes | yes (Ofgem, 25 Nov 2026) |
+| Electricity single rate – on receipt of bill / prepayment | yes | **not yet added** |
+| Economy 7 – all payment types | yes | **not yet added** |
+| Gas – all payment types | yes | **not yet added** |
 
 ## Notes
 - Units: pence per day (standing charge) and pence per kWh (unit rate), rounded to 2 d.p.

@@ -1258,5 +1258,145 @@
     "payment_type": "Prepayment",
     "standing_charge_p_per_day": 29.96,
     "unit_rate_p_per_kwh": 7.8
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "North Western England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 45.62,
+    "unit_rate_p_per_kwh": 32.85
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "North Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.51,
+    "unit_rate_p_per_kwh": 31.69
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Yorkshire",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.59,
+    "unit_rate_p_per_kwh": 32.11
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Northern Scotland",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.07,
+    "unit_rate_p_per_kwh": 32.4
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Southern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 47.74,
+    "unit_rate_p_per_kwh": 32.78
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Southern Scotland",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.33,
+    "unit_rate_p_per_kwh": 32.57
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 67.59,
+    "unit_rate_p_per_kwh": 34.44
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "London",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 42.88,
+    "unit_rate_p_per_kwh": 33.08
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "South Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 52.25,
+    "unit_rate_p_per_kwh": 33.29
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 51.76,
+    "unit_rate_p_per_kwh": 33.05
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "East Midlands",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 51.38,
+    "unit_rate_p_per_kwh": 31.65
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "West Midlands",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 57.16,
+    "unit_rate_p_per_kwh": 32.0
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "South Western England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.51,
+    "unit_rate_p_per_kwh": 32.86
+  },
+  {
+    "period_start": "2027-01-01",
+    "period_end": "2027-03-31",
+    "region": "Southern Wales",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.35,
+    "unit_rate_p_per_kwh": 32.92
   }
 ]

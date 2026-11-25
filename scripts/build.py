@@ -57,7 +57,32 @@ for fuel, tariff, block in [("electricity","Single rate",SINGLE),("electricity",
         for i, pay in enumerate(PAY):
             rows.append(dict(period_start=PERIOD[0], period_end=PERIOD[1], region=region, fuel=fuel,
                 tariff=tariff, payment_type=pay, standing_charge_p_per_day=v[2*i], unit_rate_p_per_kwh=v[2*i+1]))
-assert len(rows) == 14*3*3
+# --- Jan-Mar 2027 (published by Ofgem 25 Nov 2026) ---
+# Columns: Oct-Dec SC, Jan-Mar SC, Oct-Dec rate, Jan-Mar rate. Only tables supplied so far are included.
+JAN_PERIOD = ("2027-01-01", "2027-03-31")
+JAN_SINGLE_DD = """45.68 45.62 26.49 32.85
+61.58 61.51 25.46 31.69
+61.67 61.59 25.60 32.11
+55.14 55.07 26.35 32.40
+47.81 47.74 26.47 32.78
+61.41 61.33 26.11 32.57
+67.66 67.59 27.86 34.44
+42.92 42.88 26.60 33.08
+52.32 52.25 26.88 33.29
+51.84 51.76 26.61 33.05
+51.45 51.38 25.36 31.65
+57.23 57.16 25.60 32.00
+55.58 55.51 26.58 32.86
+55.41 55.35 26.55 32.92"""
+base = {(r["region"], r["fuel"], r["tariff"], r["payment_type"]): r for r in rows}
+for region, line in zip(REGIONS, JAN_SINGLE_DD.splitlines()):
+    sc0, sc1, ur0, ur1 = [float(x) for x in line.split()]
+    o = base[(region, "electricity", "Single rate", "Direct Debit")]
+    # cross-check: Oct-Dec figures in Ofgem's new table must match the earlier transcription
+    assert (o["standing_charge_p_per_day"], o["unit_rate_p_per_kwh"]) == (sc0, ur0), region
+    rows.append(dict(period_start=JAN_PERIOD[0], period_end=JAN_PERIOD[1], region=region, fuel="electricity",
+        tariff="Single rate", payment_type="Direct Debit", standing_charge_p_per_day=sc1, unit_rate_p_per_kwh=ur1))
+assert len(rows) == 14*3*3 + 14
 def write(name, rs):
     with open(f"data/{name}.csv","w",newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rs[0])); w.writeheader(); w.writerows(rs)
