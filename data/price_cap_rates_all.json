@@ -1,0 +1,1262 @@
+[
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 45.68,
+    "unit_rate_p_per_kwh": 26.49
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 53.73,
+    "unit_rate_p_per_kwh": 27.98
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 45.68,
+    "unit_rate_p_per_kwh": 25.68
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.58,
+    "unit_rate_p_per_kwh": 25.46
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 70.61,
+    "unit_rate_p_per_kwh": 26.89
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 61.58,
+    "unit_rate_p_per_kwh": 24.68
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.67,
+    "unit_rate_p_per_kwh": 25.6
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 70.67,
+    "unit_rate_p_per_kwh": 27.05
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 61.67,
+    "unit_rate_p_per_kwh": 24.82
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.14,
+    "unit_rate_p_per_kwh": 26.35
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 63.67,
+    "unit_rate_p_per_kwh": 27.83
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 55.14,
+    "unit_rate_p_per_kwh": 25.54
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 47.81,
+    "unit_rate_p_per_kwh": 26.47
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 56.41,
+    "unit_rate_p_per_kwh": 27.95
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 47.81,
+    "unit_rate_p_per_kwh": 25.66
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.41,
+    "unit_rate_p_per_kwh": 26.11
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 70.19,
+    "unit_rate_p_per_kwh": 27.58
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 61.41,
+    "unit_rate_p_per_kwh": 25.31
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 67.66,
+    "unit_rate_p_per_kwh": 27.86
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 76.72,
+    "unit_rate_p_per_kwh": 29.43
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 67.66,
+    "unit_rate_p_per_kwh": 27.01
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 42.92,
+    "unit_rate_p_per_kwh": 26.6
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 50.51,
+    "unit_rate_p_per_kwh": 28.09
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 42.92,
+    "unit_rate_p_per_kwh": 25.78
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 52.32,
+    "unit_rate_p_per_kwh": 26.88
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 61.19,
+    "unit_rate_p_per_kwh": 28.39
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 52.32,
+    "unit_rate_p_per_kwh": 26.06
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 51.84,
+    "unit_rate_p_per_kwh": 26.61
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 60.62,
+    "unit_rate_p_per_kwh": 28.11
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 51.84,
+    "unit_rate_p_per_kwh": 25.8
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 51.45,
+    "unit_rate_p_per_kwh": 25.36
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 60.05,
+    "unit_rate_p_per_kwh": 26.78
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 51.45,
+    "unit_rate_p_per_kwh": 24.58
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 57.23,
+    "unit_rate_p_per_kwh": 25.6
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 65.99,
+    "unit_rate_p_per_kwh": 27.04
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 57.23,
+    "unit_rate_p_per_kwh": 24.82
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.58,
+    "unit_rate_p_per_kwh": 26.58
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 64.55,
+    "unit_rate_p_per_kwh": 28.08
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 55.58,
+    "unit_rate_p_per_kwh": 25.77
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.41,
+    "unit_rate_p_per_kwh": 26.55
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 63.93,
+    "unit_rate_p_per_kwh": 28.05
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "electricity",
+    "tariff": "Single rate",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 55.41,
+    "unit_rate_p_per_kwh": 25.74
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 45.13,
+    "unit_rate_p_per_kwh": 24.99
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 53.67,
+    "unit_rate_p_per_kwh": 26.39
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 45.13,
+    "unit_rate_p_per_kwh": 24.23
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 60.98,
+    "unit_rate_p_per_kwh": 24.12
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 70.52,
+    "unit_rate_p_per_kwh": 25.47
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 60.98,
+    "unit_rate_p_per_kwh": 23.38
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.13,
+    "unit_rate_p_per_kwh": 24.33
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 70.58,
+    "unit_rate_p_per_kwh": 25.69
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 61.13,
+    "unit_rate_p_per_kwh": 23.59
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.55,
+    "unit_rate_p_per_kwh": 24.93
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 63.59,
+    "unit_rate_p_per_kwh": 26.33
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 55.55,
+    "unit_rate_p_per_kwh": 24.17
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 47.75,
+    "unit_rate_p_per_kwh": 25.03
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 56.35,
+    "unit_rate_p_per_kwh": 26.43
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 47.75,
+    "unit_rate_p_per_kwh": 24.27
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 61.72,
+    "unit_rate_p_per_kwh": 24.7
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 70.11,
+    "unit_rate_p_per_kwh": 26.08
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 61.72,
+    "unit_rate_p_per_kwh": 23.95
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 67.02,
+    "unit_rate_p_per_kwh": 26.28
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 76.64,
+    "unit_rate_p_per_kwh": 27.74
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 67.02,
+    "unit_rate_p_per_kwh": 25.48
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 42.57,
+    "unit_rate_p_per_kwh": 25.08
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 50.45,
+    "unit_rate_p_per_kwh": 26.48
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 42.57,
+    "unit_rate_p_per_kwh": 24.32
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 52.48,
+    "unit_rate_p_per_kwh": 25.36
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 61.12,
+    "unit_rate_p_per_kwh": 26.78
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 52.48,
+    "unit_rate_p_per_kwh": 24.59
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 51.95,
+    "unit_rate_p_per_kwh": 25.17
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 60.55,
+    "unit_rate_p_per_kwh": 26.57
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 51.95,
+    "unit_rate_p_per_kwh": 24.4
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 51.02,
+    "unit_rate_p_per_kwh": 24.05
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 59.97,
+    "unit_rate_p_per_kwh": 25.39
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 51.02,
+    "unit_rate_p_per_kwh": 23.32
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 56.89,
+    "unit_rate_p_per_kwh": 24.32
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 65.91,
+    "unit_rate_p_per_kwh": 25.68
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 56.89,
+    "unit_rate_p_per_kwh": 23.58
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 55.8,
+    "unit_rate_p_per_kwh": 25.1
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 64.48,
+    "unit_rate_p_per_kwh": 26.5
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 55.8,
+    "unit_rate_p_per_kwh": 24.33
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 54.64,
+    "unit_rate_p_per_kwh": 25.14
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 63.85,
+    "unit_rate_p_per_kwh": 26.54
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "electricity",
+    "tariff": "Economy 7 (multi-rate)",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 54.64,
+    "unit_rate_p_per_kwh": 24.37
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.81,
+    "unit_rate_p_per_kwh": 7.86
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.29
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Western England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.81,
+    "unit_rate_p_per_kwh": 7.58
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.79,
+    "unit_rate_p_per_kwh": 7.92
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.35
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "North Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.79,
+    "unit_rate_p_per_kwh": 7.66
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.77,
+    "unit_rate_p_per_kwh": 7.9
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.32
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Yorkshire",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.77,
+    "unit_rate_p_per_kwh": 7.61
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.87,
+    "unit_rate_p_per_kwh": 7.87
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.29
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Northern Scotland",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.87,
+    "unit_rate_p_per_kwh": 7.57
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.16,
+    "unit_rate_p_per_kwh": 8.17
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.48,
+    "unit_rate_p_per_kwh": 8.61
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.16,
+    "unit_rate_p_per_kwh": 7.94
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.89,
+    "unit_rate_p_per_kwh": 7.87
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.29
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Scotland",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.89,
+    "unit_rate_p_per_kwh": 7.57
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 30.08,
+    "unit_rate_p_per_kwh": 7.91
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.33
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Merseyside and Northern Wales",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 30.08,
+    "unit_rate_p_per_kwh": 7.62
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 30.2,
+    "unit_rate_p_per_kwh": 8.15
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.49,
+    "unit_rate_p_per_kwh": 8.58
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "London",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 30.2,
+    "unit_rate_p_per_kwh": 7.9
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.26,
+    "unit_rate_p_per_kwh": 8.05
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.49,
+    "unit_rate_p_per_kwh": 8.48
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.26,
+    "unit_rate_p_per_kwh": 7.78
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.34,
+    "unit_rate_p_per_kwh": 7.91
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.34
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Eastern England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.34,
+    "unit_rate_p_per_kwh": 7.68
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.41,
+    "unit_rate_p_per_kwh": 7.82
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.24
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "East Midlands",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.41,
+    "unit_rate_p_per_kwh": 7.54
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.71,
+    "unit_rate_p_per_kwh": 7.9
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.5,
+    "unit_rate_p_per_kwh": 8.33
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "West Midlands",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.71,
+    "unit_rate_p_per_kwh": 7.64
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.31,
+    "unit_rate_p_per_kwh": 8.12
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.49,
+    "unit_rate_p_per_kwh": 8.55
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "South Western England",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.31,
+    "unit_rate_p_per_kwh": 7.89
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Direct Debit",
+    "standing_charge_p_per_day": 29.96,
+    "unit_rate_p_per_kwh": 8.09
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "On receipt of bill (standard credit)",
+    "standing_charge_p_per_day": 37.49,
+    "unit_rate_p_per_kwh": 8.52
+  },
+  {
+    "period_start": "2026-10-01",
+    "period_end": "2026-12-31",
+    "region": "Southern Wales",
+    "fuel": "gas",
+    "tariff": "Gas",
+    "payment_type": "Prepayment",
+    "standing_charge_p_per_day": 29.96,
+    "unit_rate_p_per_kwh": 7.8
+  }
+]
